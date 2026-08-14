@@ -1,9 +1,10 @@
 import React from 'react'
+import Computer from './Computer'
 
 const App = () => {
   return (
     <div>
-      Hey I'm here!
+      <Computer/>
     </div>
   )
 }
