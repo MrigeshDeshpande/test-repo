@@ -1,0 +1,15 @@
+.containe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+
+}
+.brands{
+   width: 200px;
+   
+}
+.brands p{
+    font-size: 15px;
+    font-weight: 600;
+}
