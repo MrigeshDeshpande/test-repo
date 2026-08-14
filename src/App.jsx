@@ -1,3 +1,5 @@
+import React from 'react'
+import Computer from './Computer'
 
 import Laptop from "./Laptop"
 const App = () => {
@@ -5,6 +7,7 @@ const App = () => {
     <div>
       
       <Laptop/>
+      <Computer/>
     </div>
   )
 }
