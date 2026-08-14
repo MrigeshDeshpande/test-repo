@@ -1,9 +1,10 @@
-import React from 'react'
 
+import Laptop from "./Laptop"
 const App = () => {
   return (
     <div>
-      Hey I'm here!
+      
+      <Laptop/>
     </div>
   )
 }
