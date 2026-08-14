@@ -1,4 +1,4 @@
-// import '/Laptop.css'
+import './Laptop.css'
 
 const Laptop = () => {
   const items = [{brand: 'HP', discription: 'HP offers a wide variety of affordable laptops', price: 50000},
