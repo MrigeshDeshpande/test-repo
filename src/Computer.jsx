@@ -1,6 +1,7 @@
 // Computer.jsx
 
 import React from "react";
+import "./Computer.css";
 
 const computers = [
     {
