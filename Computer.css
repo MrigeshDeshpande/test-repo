@@ -1,0 +1,23 @@
+.mainDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+ .mainDiv h1{
+  color: black;
+  font-size: 30px;
+  text-transform: uppercase;
+ }
+ .secondDiv{
+  height: fit-content;
+  width: fit-content;
+  border: 2px solid black;
+  padding: 40px;
+  margin: 20px;
+ }
+  .secondDiv h2{
+    color:red;
+  }
+  .secondDiv h3{
+    color: green;
+  }
