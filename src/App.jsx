@@ -1,14 +1,17 @@
-import React from 'react'
-import Computer from './Computer'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Login from './Login'
+import Signup from './Signup'
+import Welcome from './Welcome'
 
-import Laptop from "./Laptop"
 const App = () => {
   return (
-    <div>
-      
-      <Laptop/>
-      <Computer/>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Signup />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/welcome" element={<Welcome />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
